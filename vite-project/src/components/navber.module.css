@@ -7,9 +7,32 @@
     display: flex;
     justify-content: space-around;
     gap: 2rem;
+    height: 100%;
+    /* background-color: blueviolet; */
+    align-items: center;
+
+
 }
 .links a{
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
+}
+.cart-Link{
+    position: relative;
+    /* background-color: red; */
+    padding: .7rem;
+
+}
+.cart-Link span{
+    width: 20px;
+    height: 20px;
+    font-weight: 400;
+    color: rgb(74, 204, 255);
+    background-color: rgb(246, 248, 250);
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    top: 0;
+    right: 0;
 }
